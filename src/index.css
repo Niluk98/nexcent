@@ -41,4 +41,7 @@ p{
     html{
         font-size: 20%;
     }
+    .menu{
+        display: none;
+    }
 }
