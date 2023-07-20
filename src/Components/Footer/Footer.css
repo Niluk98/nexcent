@@ -1,0 +1,79 @@
+footer{
+    background-color: #263238;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.company{
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 50rem;
+    min-height: 50rem;
+}
+.company p{
+    color: #ffff;
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+    color: #ffff;
+    
+}
+.footer-menu .menu-card{
+    display: flex;
+    flex-direction: column;
+}
+.footer-menu .menu-card a{
+    font-size: 1.4rem;
+    padding: 1.2rem 0;
+    color: #ffff;
+}
+
+#email{
+    position: relative;
+    /* background-color: aliceblue; */
+    height: 25rem;
+    width: 25rem;
+}
+#email h2{
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.email{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    /* min-height: 10rem; */
+    /* background-color: #ffff; */
+    /* display: flex; */
+    justify-content: center;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.email input{
+    background: #ffff;
+    width: 25rem;
+    height: 5rem;
+    border-radius: 0.8rem;
+    border: none;
+    opacity: 0.3;
+    color: black;
+    font-size: 1.5rem;
+
+}
+.email input:focus{
+    opacity: 1;
+}
+

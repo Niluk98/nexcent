@@ -1,0 +1,68 @@
+
+.client-header {
+    
+    text-align: center;
+
+}
+
+.client-header h1{
+    color: var(--secondary);
+}
+.client-header p{
+    color: var(--description);
+    font-size: 1.8rem;
+}
+.client-logos{
+    margin: 5rem 0;
+    display: flex;
+    justify-content: center;
+    
+}
+.tagline-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.tagline-1{
+    text-align: center;
+    width: 56rem;
+    
+}
+.gallery{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem 0 ;
+}
+.gallery .gallery-card{
+    width: 30rem;
+    text-align: center;
+    
+}
+.gallery-2{
+    margin: 10rem 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15rem;
+    gap: 5rem;
+}
+.gallery-2 h1, p{
+    color: #ffff;
+}
+.gallery-2 .description{
+    text-align: left;
+    padding: 5rem 0;
+}
+.button{
+    width: 10rem;
+    height: 5rem;
+    margin: 5rem 0;
+    background-color: var(--green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+}
+
