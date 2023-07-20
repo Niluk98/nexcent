@@ -11,9 +11,17 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
     width: 50rem;
     min-height: 50rem;
+    padding: 2rem 2rem;
+}
+.company-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:15rem;
+     height:10rem;
 }
 .company p{
     color: #ffff;

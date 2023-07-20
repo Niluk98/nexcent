@@ -8,7 +8,10 @@ const Header = () => {
         <h1 className='tagline'> Lessions and Insights <br /> <span>from 8 years</span></h1>
       </div>
       <div className="image">
-        <img src={Illustration} alt=""  />
+        <div className="image-tag">
+        <img src={Illustration} alt="" width='100%'
+    height='100%' />
+        </div>
       </div>
     </header>
   )

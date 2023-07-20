@@ -5,7 +5,9 @@ const Footer = () => {
   return (
     <footer>
       <div className="company">
-         <img src={Logo} alt="" width='200rem' height='40rem' />
+         <div className="company-logo">
+         <img src={Logo} alt="" width='100%' height='100%' />
+         </div>
          <p>Copyright © 2020 Nexcent ltd.</p>
          <p>All rights reserved</p>
       </div>
